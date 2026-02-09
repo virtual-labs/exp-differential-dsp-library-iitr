@@ -1,1 +1,1 @@
-## Experiment name
+## Audio synthesis using Differential DSP library

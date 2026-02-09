@@ -1,39 +1,62 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+[
+  {
+    "question": "What are the valid audio formats?",
+    "answers": {
+      "a": ".mp3",
+      "b": ".png",
+      "c": ".jpeg",
+      "d": ".wav"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+    "correctAnswer": "a,d"
+  },
+  {
+    "question": "What does frame length refer to for an audio signal?",
+    "answers": {
+      "a": "Amplitude values of the samples in the frame",
+      "b": "Number of samples in the particular frame of the audio",
+      "c": "Half the duration of the audio signal",
+      "d": "None of the above"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Based on the visualization of the plots of amplitude envelope, select the aggregation feature that approximately traces the positive portion of the amplitude in the audio signal",
+    "answers": {
+      "a": "MAX",
+      "b": "MEAN",
+      "c": "MIN",
+      "d": "MEDIAN"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following statements are correct for an audio signal?",
+    "answers": {
+      "a": "Duration of one sample refers to the sampling rate",
+      "b": "Duration of the first sample equals the reciprocal of the sampling rate",
+      "c": "Partially overlapping frames does not have zero hop length",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which of the following statements are correct for an audio signal?",
+    "answers": {
+      "a": "Frame duration is dependent on the number of samples in the frame",
+      "b": "Frame duration is dependent on the sampling rate",
+      "c": "Concept of framing plays a significant role in amplitude envelope extraction",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the default sampling rate for an audio signal?",
+    "answers": {
+      "a": "22050 Hz",
+      "b": "1000 Hz",
+      "c": "44100 Hz",
+      "d": "22000 Hz"
+    },
+    "correctAnswer": "a"
+  }
+]
