@@ -14,8 +14,10 @@ The amplitude envelope of an audio file is computed using the concept of **frami
 
 The result is a time series that roughly represents the **loudness contour** or **amplitude contour** of the sound.
 
-![Amplitude Envelope Example](figure1)  
-*(Figure 1: Example of an amplitude envelope extracted from an audio signal)*
+<center>
+  <img src="images/figure1.png" alt="Example of an amplitude envelope extracted from an audio signal" style="max-width: 35%;">
+  <figcaption><strong>Example of an amplitude envelope extracted from an audio signal</strong></figcaption>
+</center>
 
 ## Summary Definition
 
@@ -35,10 +37,11 @@ This feature has been widely used in:
 ## Comparison with RMS Energy
 
 Although very useful, the **maximum-based amplitude envelope** is **more sensitive to outliers** (sudden spikes/clicks/noise) than the **RMS (Root Mean Square) energy** feature.  
-→ For this reason, **RMS energy** is often preferred in many audio analysis tasks.
-
-![Flowchart](flowchart)  
-*(Flowchart: Process of computing the amplitude envelope from raw audio)*
+→ For this reason, **RMS energy** is often preferred in many audio analysis tasks. 
+<center>
+  <img src="images/flowchart.png" alt="Flowchart: Process of computing the amplitude envelope from raw audio" style="max-width: 35%;">
+  <figcaption><strong>Flowchart: Process of computing the amplitude envelope from raw audio</strong></figcaption>
+</center>
 
 ## Two Main Types of Amplitude Envelopes
 
@@ -59,5 +62,7 @@ Although very useful, the **maximum-based amplitude envelope** is **more sensiti
   - **Abrupt offset** (sudden end)
 - Common in sounds with steady-state portions (e.g. sustained notes on wind instruments, bowed strings, organ tones, etc.)
 
-![Amplitude Envelope Types](figure2)  
-*(Figure 2: Comparison of percussive vs. flat amplitude envelopes)*
+<center>
+  <img src="images/figure2.png" alt="Comparison of percussive vs. flat amplitude envelopes" style="max-width: 35%;">
+  <figcaption><strong>Comparison of percussive vs. flat amplitude envelopes</strong></figcaption>
+</center>
