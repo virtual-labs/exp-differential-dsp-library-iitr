@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the valid frame size for an audio signal?",
+    "answers": {
+      "a": "1024",
+      "b": "1000",
+      "c": "400",
+      "d": "512"
+    },
+    "correctAnswer": "a,d"
+  },
+  {
+    "question": "What does adjacent non-overlapping frames with zero intermediate samples refer to for an audio signal?",
+    "answers": {
+      "a": "Frame Length equals double the Hop Length",
+      "b": "Frame Length equals half the Hop Length",
+      "c": "Frame Length equals Hop Length",
+      "d": "Frame Length equals four times the Hop Length"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "If an audio signal is sampled at the rate 16 kHz, it means that",
+    "answers": {
+      "a": "There are 8000 samples in one second duration of the audio",
+      "b": "There are 16000 samples in one second duration of the audio",
+      "c": "There are 4000 samples in one second duration of the audio",
+      "d": "None of the above"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does hop length refer to for an audio signal?",
+    "answers": {
+      "a": "Number of samples in the particular frame of the audio",
+      "b": "Total number of samples present in two successive frames of the audio",
+      "c": "Number of samples between the two consecutive frames of the audio",
+      "d": "Amplitude value of the samples in the frame of the audio"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following correctly describes the relationship between frame length and hop length in overlapping frames?",
+    "answers": {
+      "a": "Hop length is greater than frame length",
+      "b": "Hop length is equal to frame length",
+      "c": "Hop length is less than frame length",
+      "d": "Hop length is independent of frame length"
+    },
+    "correctAnswer": "c"
+  }
+]
